@@ -1,0 +1,1 @@
+QQ机器人的API端实现，基于C语言，使用CodeBlocks进行项目管理
