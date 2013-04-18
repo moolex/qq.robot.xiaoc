@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="QQAPIServer" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\QQAPIServer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="var\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="moyo" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\QQAPIServer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="var\Release\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="moyo" />
+				<Compiler>
+					<Add option="-Os" />
+					<Add option="-O3" />
+					<Add option="-O2" />
+					<Add option="-O1" />
+					<Add option="-O" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-fexpensive-optimizations" />
+			<Add option="-Os" />
+			<Add option="-O3" />
+			<Add option="-O2" />
+			<Add option="-O1" />
+			<Add option="-O" />
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add library="D:\Program Files\CodeBlocks\MinGW\lib\libws2_32.a" />
+			<Add library="D:\Program Files\CodeBlocks\MinGW\lib\libpthread.a" />
+		</Linker>
+		<Unit filename="src\QQAPIServer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\api.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\api.h" />
+		<Unit filename="src\buddy.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\buddy.h" />
+		<Unit filename="src\config.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\config.h" />
+		<Unit filename="src\crc32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\crc32.h" />
+		<Unit filename="src\debug.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\debug.h" />
+		<Unit filename="src\group.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\group.h" />
+		<Unit filename="src\list.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\list.h" />
+		<Unit filename="src\loop.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\loop.h" />
+		<Unit filename="src\md5.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\md5.h" />
+		<Unit filename="src\memory.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\memory.h" />
+		<Unit filename="src\packetmgr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\packetmgr.h" />
+		<Unit filename="src\prot_buddy.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\prot_group.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\prot_im.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\prot_login.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\prot_misc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\prot_qun.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\prot_user.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\protocol.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\protocol.h" />
+		<Unit filename="src\qqclient.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\qqclient.h" />
+		<Unit filename="src\qqconn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\qqconn.h" />
+		<Unit filename="src\qqcrypt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\qqcrypt.h" />
+		<Unit filename="src\qqdef.h" />
+		<Unit filename="src\qqpacket.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\qqpacket.h" />
+		<Unit filename="src\qqsocket.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\qqsocket.h" />
+		<Unit filename="src\qun.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\qun.h" />
+		<Unit filename="src\utf8.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\utf8.h" />
+		<Unit filename="src\util.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\util.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars set="default" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

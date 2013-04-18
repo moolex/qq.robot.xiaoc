@@ -1,0 +1,63 @@
+<style type="text/css">
+div {
+	height:53px;
+	border-bottom:2px solid #cccccc;
+	margin: 10px;
+}
+img {
+	width:130px;
+	height:53px;
+}
+font {
+	margin-left: 20px;
+}
+.runner {
+	display: none;
+}
+</style>
+<div class="runner"><img id="im1"><font id="dp1"></font></div>
+<div class="runner"><img id="im2"><font id="dp2"></font></div>
+<div class="runner"><img id="im3"><font id="dp3"></font></div>
+<div class="runner"><img id="im4"><font id="dp4"></font></div>
+<div class="runner"><img id="im5"><font id="dp5"></font></div>
+<div class="runner"><img id="im6"><font id="dp6"></font></div>
+<div class="runner"><img id="im7"><font id="dp7"></font></div>
+<div class="runner"><img id="im8"><font id="dp8"></font></div>
+<div class="runner"><img id="im9"><font id="dp9"></font></div>
+<div class="runner"><img id="im10"><font id="dp10"></font></div>
+<div class="runner"><img id="im11"><font id="dp11"></font></div>
+<div class="runner"><img id="im12"><font id="dp12"></font></div>
+<p>
+	Runs <font id="runs"></font>
+	AND <font id="speed"></font>
+</p>
+<script type="text/javascript">
+	function $(ID)
+	{
+		return document.getElementById(ID);
+	}
+	var start = Math.round((new Date().getTime())/1000);
+	var runs = 0;
+	setInterval(function(){
+		for (var i=1; i<=12; i++)
+		{
+			var x = Math.round(Math.random()*10000000000000000);
+			//$('im'+i).src = 'http://127.0.0.1:9005/v?752329591&'+x;
+			$('im'+i).src = 'http://127.0.0.1:8090/send?'+x;
+			$('dp'+i).innerHTML = x;
+			// count
+			runs ++;
+			if (runs % 100 == 0)
+			{
+				// speed
+				var now = Math.round((new Date().getTime())/1000);
+				var diff = 0;
+					diff = now  - start;
+				var speed = 0;
+					speed = Math.round(runs/diff);
+				$('speed').innerHTML = speed+'/s';
+			}
+			$('runs').innerHTML = runs;
+		}
+	}, 10);
+</script>

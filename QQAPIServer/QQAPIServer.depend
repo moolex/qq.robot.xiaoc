@@ -1,0 +1,2319 @@
+# depslib dependency file v1.0
+1295239860 source:f:\project\qqrobot\src\qqapiserver.c
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	<time.h>
+	<stdlib.h>
+	<unistd.h>
+	<conio.h>
+	<winsock.h>
+	<wininet.h>
+	<windows.h>
+	<termios.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	"qqclient.h"
+	"buddy.h"
+	"qun.h"
+	"group.h"
+	"debug.h"
+	"memory.h"
+	"utf8.h"
+	"config.h"
+	"qqsocket.h"
+	"api.h"
+
+1295236228 f:\project\qqrobot\src\qqclient.h
+	<pthread.h>
+	<time.h>
+	"qqdef.h"
+	"packetmgr.h"
+	"buddy.h"
+	"list.h"
+	"loop.h"
+	"qqsocket.h"
+	"protocol.h"
+
+1294998665 f:\project\qqrobot\src\qqdef.h
+	<time.h>
+	<unistd.h>
+	"util.h"
+
+1294067647 f:\project\qqrobot\src\util.h
+
+1294999963 f:\project\qqrobot\src\packetmgr.h
+	<pthread.h>
+	"qqdef.h"
+	"loop.h"
+	"qqpacket.h"
+
+1233976358 f:\project\qqrobot\src\loop.h
+	<pthread.h>
+
+1294739871 f:\project\qqrobot\src\qqpacket.h
+	"qqdef.h"
+
+1284011091 f:\project\qqrobot\src\buddy.h
+	"qqdef.h"
+
+1233976358 f:\project\qqrobot\src\list.h
+	<pthread.h>
+
+1294810329 f:\project\qqrobot\src\qqsocket.h
+	"qqdef.h"
+
+1284010889 f:\project\qqrobot\src\protocol.h
+	"qqdef.h"
+	"qqpacket.h"
+
+1233976360 f:\project\qqrobot\src\qun.h
+	"qqdef.h"
+
+1284009835 f:\project\qqrobot\src\group.h
+	"qqdef.h"
+
+1295250298 f:\project\qqrobot\src\debug.h
+	<stdio.h>
+	<errno.h>
+	<assert.h>
+
+1293866120 f:\project\qqrobot\src\memory.h
+	<time.h>
+	<pthread.h>
+
+1293910564 f:\project\qqrobot\src\utf8.h
+
+1233976358 f:\project\qqrobot\src\config.h
+
+1295236671 f:\project\qqrobot\src\api.h
+
+1252579352 source:f:\project\qqrobot\src\buddy.c
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	"qqclient.h"
+	"memory.h"
+	"debug.h"
+	"protocol.h"
+	"list.h"
+	"buddy.h"
+	"packetmgr.h"
+
+1295006019 source:f:\project\qqrobot\src\config.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"debug.h"
+	"qqdef.h"
+	"memory.h"
+	"config.h"
+
+1233976360 source:f:\project\qqrobot\src\crc32.c
+	<stdio.h>
+	"qqdef.h"
+
+1295006257 source:f:\project\qqrobot\src\debug.c
+	<stdio.h>
+	<stdarg.h>
+	<fcntl.h>
+	<string.h>
+	<io.h>
+	<time.h>
+	"debug.h"
+	"util.h"
+	"qqdef.h"
+	"utf8.h"
+
+1233989746 source:f:\project\qqrobot\src\group.c
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	"qqclient.h"
+	"memory.h"
+	"debug.h"
+	"protocol.h"
+	"list.h"
+	"group.h"
+
+1246364738 source:f:\project\qqrobot\src\list.c
+	<string.h>
+	<stdlib.h>
+	<pthread.h>
+	"qqdef.h"
+	"debug.h"
+	"memory.h"
+	"list.h"
+
+1294744446 source:f:\project\qqrobot\src\loop.c
+	<string.h>
+	<stdlib.h>
+	<pthread.h>
+	"qqdef.h"
+	"debug.h"
+	"memory.h"
+	"loop.h"
+
+1233976354 source:f:\project\qqrobot\src\md5.c
+	"md5.h"
+	<string.h>
+	<string.h>
+	<math.h>
+
+1233976358 f:\project\qqrobot\src\md5.h
+
+1233976354 source:f:\project\qqrobot\src\memory.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<time.h>
+	"debug.h"
+	"memory.h"
+
+1294999989 source:f:\project\qqrobot\src\packetmgr.c
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	"qqdef.h"
+	"memory.h"
+	"debug.h"
+	"qqclient.h"
+	"qqpacket.h"
+	"qqsocket.h"
+	"packetmgr.h"
+	"protocol.h"
+
+1284013020 source:f:\project\qqrobot\src\prot_buddy.c
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	"qqclient.h"
+	"memory.h"
+	"debug.h"
+	"qqpacket.h"
+	"packetmgr.h"
+	"protocol.h"
+	"buddy.h"
+	"config.h"
+
+1284010576 source:f:\project\qqrobot\src\prot_group.c
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	"qqclient.h"
+	"memory.h"
+	"debug.h"
+	"qqpacket.h"
+	"packetmgr.h"
+	"protocol.h"
+	"qun.h"
+	"group.h"
+	"utf8.h"
+
+1294885760 source:f:\project\qqrobot\src\prot_im.c
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	"qqclient.h"
+	"memory.h"
+	"debug.h"
+	"qqpacket.h"
+	"packetmgr.h"
+	"qqcrypt.h"
+	"md5.h"
+	"buddy.h"
+	"protocol.h"
+	"utf8.h"
+	"util.h"
+
+1245586838 f:\project\qqrobot\src\qqcrypt.h
+
+1294832212 source:f:\project\qqrobot\src\prot_login.c
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	"qqclient.h"
+	"memory.h"
+	"debug.h"
+	"qqpacket.h"
+	"packetmgr.h"
+	"qqcrypt.h"
+	"md5.h"
+	"crc32.h"
+	"protocol.h"
+	"group.h"
+	"buddy.h"
+	"qun.h"
+	"qqconn.h"
+
+1233976358 f:\project\qqrobot\src\crc32.h
+
+1246698252 f:\project\qqrobot\src\qqconn.h
+
+1282457376 source:f:\project\qqrobot\src\prot_misc.c
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	"qqclient.h"
+	"memory.h"
+	"debug.h"
+	"qqpacket.h"
+	"packetmgr.h"
+	"qqcrypt.h"
+	"md5.h"
+	"protocol.h"
+
+1232937586 source:f:\project\qqrobot\src\prot_qun.c
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	"qqclient.h"
+	"memory.h"
+	"debug.h"
+	"qqpacket.h"
+	"packetmgr.h"
+	"protocol.h"
+	"qun.h"
+	"utf8.h"
+
+1294832224 source:f:\project\qqrobot\src\prot_user.c
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	"qqclient.h"
+	"memory.h"
+	"debug.h"
+	"qqpacket.h"
+	"packetmgr.h"
+	"protocol.h"
+	"buddy.h"
+	"util.h"
+
+1252572070 source:f:\project\qqrobot\src\protocol.c
+	<string.h>
+	<stdlib.h>
+	<time.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	"qqdef.h"
+	"qqclient.h"
+	"qqcrypt.h"
+	"debug.h"
+	"memory.h"
+	"protocol.h"
+
+1295002674 source:f:\project\qqrobot\src\qqclient.c
+	<string.h>
+	<stdlib.h>
+	<unistd.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	"md5.h"
+	"memory.h"
+	"debug.h"
+	"config.h"
+	"qqsocket.h"
+	"packetmgr.h"
+	"protocol.h"
+	"qqclient.h"
+	"qun.h"
+	"group.h"
+	"buddy.h"
+	"util.h"
+	"qqconn.h"
+
+1294832230 source:f:\project\qqrobot\src\qqconn.c
+	<string.h>
+	<stdlib.h>
+	<unistd.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	"memory.h"
+	"debug.h"
+	"config.h"
+	"qqsocket.h"
+	"protocol.h"
+	"qqclient.h"
+	"util.h"
+	"qqconn.h"
+
+1245586804 source:f:\project\qqrobot\src\qqcrypt.c
+	<stdio.h>
+	<string.h>
+	<winsock.h>
+	<arpa/inet.h>
+	"qqcrypt.h"
+	"debug.h"
+
+1233976356 source:f:\project\qqrobot\src\qqpacket.c
+	<string.h>
+	<stdlib.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	"qqdef.h"
+	"memory.h"
+	"debug.h"
+	"packetmgr.h"
+	"qqclient.h"
+	"qqpacket.h"
+
+1294810310 source:f:\project\qqrobot\src\qqsocket.c
+	<stdio.h>
+	<unistd.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	<fcntl.h>
+	<string.h>
+	<stdlib.h>
+	"qqdef.h"
+	"debug.h"
+	"qqsocket.h"
+	"qqclient.h"
+
+1233976356 source:f:\project\qqrobot\src\qun.c
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	"qqclient.h"
+	"memory.h"
+	"debug.h"
+	"protocol.h"
+	"list.h"
+	"buddy.h"
+	"qun.h"
+
+1295005895 source:f:\project\qqrobot\src\utf8.c
+	<windows.h>
+	<iconv.h>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"qqdef.h"
+	"debug.h"
+	"memory.h"
+	"config.h"
+	"utf8.h"
+
+1295250172 source:f:\project\qqrobot\src\util.c
+	<io.h>
+	<windows.h>
+	<sys/stat.h>
+	<stdio.h>
+	<stdarg.h>
+	<string.h>
+	<stdlib.h>
+	<time.h>
+	"qqsocket.h"
+	"debug.h"
+	"qqclient.h"
+	"util.h"
+	"memory.h"
+
+1295250130 source:f:\project\qqrobot\src\api.c
+	<winsock.h>
+	<sys/socket.h>
+	<stdio.h>
+	<winsock.h>
+	<pthread.h>
+	"qqsocket.h"
+	"debug.h"
+	"qqclient.h"
+	"memory.h"
+	"api.h"
+	"md5.h"
+
+1295941238 source:e:\webstorage\project\qqserver\src\qqapiserver.c
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	<time.h>
+	<stdlib.h>
+	<unistd.h>
+	<conio.h>
+	<winsock.h>
+	<wininet.h>
+	<windows.h>
+	<termios.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	"qqclient.h"
+	"buddy.h"
+	"qun.h"
+	"group.h"
+	"debug.h"
+	"memory.h"
+	"utf8.h"
+	"config.h"
+	"qqsocket.h"
+	"api.h"
+
+1295681356 e:\webstorage\project\qqserver\src\qqclient.h
+	<pthread.h>
+	<time.h>
+	"qqdef.h"
+	"packetmgr.h"
+	"buddy.h"
+	"list.h"
+	"loop.h"
+	"qqsocket.h"
+	"protocol.h"
+
+1294998665 e:\webstorage\project\qqserver\src\qqdef.h
+	<time.h>
+	<unistd.h>
+	"util.h"
+
+1294067647 e:\webstorage\project\qqserver\src\util.h
+
+1294999963 e:\webstorage\project\qqserver\src\packetmgr.h
+	<pthread.h>
+	"qqdef.h"
+	"loop.h"
+	"qqpacket.h"
+
+1233976358 e:\webstorage\project\qqserver\src\loop.h
+	<pthread.h>
+
+1294739871 e:\webstorage\project\qqserver\src\qqpacket.h
+	"qqdef.h"
+
+1284011091 e:\webstorage\project\qqserver\src\buddy.h
+	"qqdef.h"
+
+1233976358 e:\webstorage\project\qqserver\src\list.h
+	<pthread.h>
+
+1294810329 e:\webstorage\project\qqserver\src\qqsocket.h
+	"qqdef.h"
+
+1284010889 e:\webstorage\project\qqserver\src\protocol.h
+	"qqdef.h"
+	"qqpacket.h"
+
+1233976360 e:\webstorage\project\qqserver\src\qun.h
+	"qqdef.h"
+
+1284009835 e:\webstorage\project\qqserver\src\group.h
+	"qqdef.h"
+
+1296007748 e:\webstorage\project\qqserver\src\debug.h
+	<stdio.h>
+	<errno.h>
+	<assert.h>
+
+1293866120 e:\webstorage\project\qqserver\src\memory.h
+	<time.h>
+	<pthread.h>
+
+1293910564 e:\webstorage\project\qqserver\src\utf8.h
+
+1233976358 e:\webstorage\project\qqserver\src\config.h
+
+1296006531 e:\webstorage\project\qqserver\src\api.h
+
+1296007441 source:e:\webstorage\project\qqserver\src\api.c
+	<winsock.h>
+	<sys/socket.h>
+	<stdio.h>
+	<winsock.h>
+	<pthread.h>
+	"qqsocket.h"
+	"debug.h"
+	"qqclient.h"
+	"memory.h"
+	"api.h"
+	"md5.h"
+
+1233976358 e:\webstorage\project\qqserver\src\md5.h
+
+1252579352 source:e:\webstorage\project\qqserver\src\buddy.c
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	"qqclient.h"
+	"memory.h"
+	"debug.h"
+	"protocol.h"
+	"list.h"
+	"buddy.h"
+	"packetmgr.h"
+
+1295006019 source:e:\webstorage\project\qqserver\src\config.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"debug.h"
+	"qqdef.h"
+	"memory.h"
+	"config.h"
+
+1233976360 source:e:\webstorage\project\qqserver\src\crc32.c
+	<stdio.h>
+	"qqdef.h"
+
+1295006257 source:e:\webstorage\project\qqserver\src\debug.c
+	<stdio.h>
+	<stdarg.h>
+	<fcntl.h>
+	<string.h>
+	<io.h>
+	<time.h>
+	"debug.h"
+	"util.h"
+	"qqdef.h"
+	"utf8.h"
+
+1233989746 source:e:\webstorage\project\qqserver\src\group.c
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	"qqclient.h"
+	"memory.h"
+	"debug.h"
+	"protocol.h"
+	"list.h"
+	"group.h"
+
+1246364738 source:e:\webstorage\project\qqserver\src\list.c
+	<string.h>
+	<stdlib.h>
+	<pthread.h>
+	"qqdef.h"
+	"debug.h"
+	"memory.h"
+	"list.h"
+
+1294744446 source:e:\webstorage\project\qqserver\src\loop.c
+	<string.h>
+	<stdlib.h>
+	<pthread.h>
+	"qqdef.h"
+	"debug.h"
+	"memory.h"
+	"loop.h"
+
+1233976354 source:e:\webstorage\project\qqserver\src\md5.c
+	"md5.h"
+	<string.h>
+	<string.h>
+	<math.h>
+
+1233976354 source:e:\webstorage\project\qqserver\src\memory.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<time.h>
+	"debug.h"
+	"memory.h"
+
+1295688223 source:e:\webstorage\project\qqserver\src\packetmgr.c
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	"qqdef.h"
+	"memory.h"
+	"debug.h"
+	"qqclient.h"
+	"qqpacket.h"
+	"qqsocket.h"
+	"packetmgr.h"
+	"protocol.h"
+
+1284013020 source:e:\webstorage\project\qqserver\src\prot_buddy.c
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	"qqclient.h"
+	"memory.h"
+	"debug.h"
+	"qqpacket.h"
+	"packetmgr.h"
+	"protocol.h"
+	"buddy.h"
+	"config.h"
+
+1284010576 source:e:\webstorage\project\qqserver\src\prot_group.c
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	"qqclient.h"
+	"memory.h"
+	"debug.h"
+	"qqpacket.h"
+	"packetmgr.h"
+	"protocol.h"
+	"qun.h"
+	"group.h"
+	"utf8.h"
+
+1294885760 source:e:\webstorage\project\qqserver\src\prot_im.c
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	"qqclient.h"
+	"memory.h"
+	"debug.h"
+	"qqpacket.h"
+	"packetmgr.h"
+	"qqcrypt.h"
+	"md5.h"
+	"buddy.h"
+	"protocol.h"
+	"utf8.h"
+	"util.h"
+
+1245586838 e:\webstorage\project\qqserver\src\qqcrypt.h
+
+1294832212 source:e:\webstorage\project\qqserver\src\prot_login.c
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	"qqclient.h"
+	"memory.h"
+	"debug.h"
+	"qqpacket.h"
+	"packetmgr.h"
+	"qqcrypt.h"
+	"md5.h"
+	"crc32.h"
+	"protocol.h"
+	"group.h"
+	"buddy.h"
+	"qun.h"
+	"qqconn.h"
+
+1233976358 e:\webstorage\project\qqserver\src\crc32.h
+
+1246698252 e:\webstorage\project\qqserver\src\qqconn.h
+
+1282457376 source:e:\webstorage\project\qqserver\src\prot_misc.c
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	"qqclient.h"
+	"memory.h"
+	"debug.h"
+	"qqpacket.h"
+	"packetmgr.h"
+	"qqcrypt.h"
+	"md5.h"
+	"protocol.h"
+
+1232937586 source:e:\webstorage\project\qqserver\src\prot_qun.c
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	"qqclient.h"
+	"memory.h"
+	"debug.h"
+	"qqpacket.h"
+	"packetmgr.h"
+	"protocol.h"
+	"qun.h"
+	"utf8.h"
+
+1294832224 source:e:\webstorage\project\qqserver\src\prot_user.c
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	"qqclient.h"
+	"memory.h"
+	"debug.h"
+	"qqpacket.h"
+	"packetmgr.h"
+	"protocol.h"
+	"buddy.h"
+	"util.h"
+
+1252572070 source:e:\webstorage\project\qqserver\src\protocol.c
+	<string.h>
+	<stdlib.h>
+	<time.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	"qqdef.h"
+	"qqclient.h"
+	"qqcrypt.h"
+	"debug.h"
+	"memory.h"
+	"protocol.h"
+
+1296071087 source:e:\webstorage\project\qqserver\src\qqclient.c
+	<string.h>
+	<stdlib.h>
+	<unistd.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	"md5.h"
+	"memory.h"
+	"debug.h"
+	"config.h"
+	"qqsocket.h"
+	"packetmgr.h"
+	"protocol.h"
+	"qqclient.h"
+	"qun.h"
+	"group.h"
+	"buddy.h"
+	"util.h"
+	"qqconn.h"
+	"api.h"
+
+1296071220 source:e:\webstorage\project\qqserver\src\qqconn.c
+	<string.h>
+	<stdlib.h>
+	<unistd.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	"memory.h"
+	"debug.h"
+	"config.h"
+	"qqsocket.h"
+	"protocol.h"
+	"qqclient.h"
+	"util.h"
+	"qqconn.h"
+
+1245586804 source:e:\webstorage\project\qqserver\src\qqcrypt.c
+	<stdio.h>
+	<string.h>
+	<winsock.h>
+	<arpa/inet.h>
+	"qqcrypt.h"
+	"debug.h"
+
+1233976356 source:e:\webstorage\project\qqserver\src\qqpacket.c
+	<string.h>
+	<stdlib.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	"qqdef.h"
+	"memory.h"
+	"debug.h"
+	"packetmgr.h"
+	"qqclient.h"
+	"qqpacket.h"
+
+1294810310 source:e:\webstorage\project\qqserver\src\qqsocket.c
+	<stdio.h>
+	<unistd.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	<fcntl.h>
+	<string.h>
+	<stdlib.h>
+	"qqdef.h"
+	"debug.h"
+	"qqsocket.h"
+	"qqclient.h"
+
+1233976356 source:e:\webstorage\project\qqserver\src\qun.c
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	"qqclient.h"
+	"memory.h"
+	"debug.h"
+	"protocol.h"
+	"list.h"
+	"buddy.h"
+	"qun.h"
+
+1295005895 source:e:\webstorage\project\qqserver\src\utf8.c
+	<windows.h>
+	<iconv.h>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"qqdef.h"
+	"debug.h"
+	"memory.h"
+	"config.h"
+	"utf8.h"
+
+1296007288 source:e:\webstorage\project\qqserver\src\util.c
+	<io.h>
+	<windows.h>
+	<sys/stat.h>
+	<stdio.h>
+	<stdarg.h>
+	<string.h>
+	<stdlib.h>
+	<time.h>
+	"qqsocket.h"
+	"debug.h"
+	"qqclient.h"
+	"util.h"
+	"memory.h"
+
+1295941238 source:x:\project\qqserver\src\qqapiserver.c
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	<time.h>
+	<stdlib.h>
+	<unistd.h>
+	<conio.h>
+	<winsock.h>
+	<wininet.h>
+	<windows.h>
+	<termios.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	"qqclient.h"
+	"buddy.h"
+	"qun.h"
+	"group.h"
+	"debug.h"
+	"memory.h"
+	"utf8.h"
+	"config.h"
+	"qqsocket.h"
+	"api.h"
+
+1295681356 x:\project\qqserver\src\qqclient.h
+	<pthread.h>
+	<time.h>
+	"qqdef.h"
+	"packetmgr.h"
+	"buddy.h"
+	"list.h"
+	"loop.h"
+	"qqsocket.h"
+	"protocol.h"
+
+1294998665 x:\project\qqserver\src\qqdef.h
+	<time.h>
+	<unistd.h>
+	"util.h"
+
+1294067647 x:\project\qqserver\src\util.h
+
+1294999963 x:\project\qqserver\src\packetmgr.h
+	<pthread.h>
+	"qqdef.h"
+	"loop.h"
+	"qqpacket.h"
+
+1233976358 x:\project\qqserver\src\loop.h
+	<pthread.h>
+
+1294739871 x:\project\qqserver\src\qqpacket.h
+	"qqdef.h"
+
+1284011091 x:\project\qqserver\src\buddy.h
+	"qqdef.h"
+
+1233976358 x:\project\qqserver\src\list.h
+	<pthread.h>
+
+1294810329 x:\project\qqserver\src\qqsocket.h
+	"qqdef.h"
+
+1284010889 x:\project\qqserver\src\protocol.h
+	"qqdef.h"
+	"qqpacket.h"
+
+1233976360 x:\project\qqserver\src\qun.h
+	"qqdef.h"
+
+1284009835 x:\project\qqserver\src\group.h
+	"qqdef.h"
+
+1296185440 x:\project\qqserver\src\debug.h
+	<stdio.h>
+	<errno.h>
+	<assert.h>
+
+1293866120 x:\project\qqserver\src\memory.h
+	<time.h>
+	<pthread.h>
+
+1293910564 x:\project\qqserver\src\utf8.h
+
+1233976358 x:\project\qqserver\src\config.h
+
+1297991684 x:\project\qqserver\src\api.h
+
+1296007441 source:x:\project\qqserver\src\api.c
+	<winsock.h>
+	<sys/socket.h>
+	<stdio.h>
+	<winsock.h>
+	<pthread.h>
+	"qqsocket.h"
+	"debug.h"
+	"qqclient.h"
+	"memory.h"
+	"api.h"
+	"md5.h"
+
+1233976358 x:\project\qqserver\src\md5.h
+
+1252579352 source:x:\project\qqserver\src\buddy.c
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	"qqclient.h"
+	"memory.h"
+	"debug.h"
+	"protocol.h"
+	"list.h"
+	"buddy.h"
+	"packetmgr.h"
+
+1295006019 source:x:\project\qqserver\src\config.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"debug.h"
+	"qqdef.h"
+	"memory.h"
+	"config.h"
+
+1233976360 source:x:\project\qqserver\src\crc32.c
+	<stdio.h>
+	"qqdef.h"
+
+1295006257 source:x:\project\qqserver\src\debug.c
+	<stdio.h>
+	<stdarg.h>
+	<fcntl.h>
+	<string.h>
+	<io.h>
+	<time.h>
+	"debug.h"
+	"util.h"
+	"qqdef.h"
+	"utf8.h"
+
+1233989746 source:x:\project\qqserver\src\group.c
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	"qqclient.h"
+	"memory.h"
+	"debug.h"
+	"protocol.h"
+	"list.h"
+	"group.h"
+
+1246364738 source:x:\project\qqserver\src\list.c
+	<string.h>
+	<stdlib.h>
+	<pthread.h>
+	"qqdef.h"
+	"debug.h"
+	"memory.h"
+	"list.h"
+
+1294744446 source:x:\project\qqserver\src\loop.c
+	<string.h>
+	<stdlib.h>
+	<pthread.h>
+	"qqdef.h"
+	"debug.h"
+	"memory.h"
+	"loop.h"
+
+1233976354 source:x:\project\qqserver\src\md5.c
+	"md5.h"
+	<string.h>
+	<string.h>
+	<math.h>
+
+1233976354 source:x:\project\qqserver\src\memory.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<time.h>
+	"debug.h"
+	"memory.h"
+
+1295688223 source:x:\project\qqserver\src\packetmgr.c
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	"qqdef.h"
+	"memory.h"
+	"debug.h"
+	"qqclient.h"
+	"qqpacket.h"
+	"qqsocket.h"
+	"packetmgr.h"
+	"protocol.h"
+
+1284013020 source:x:\project\qqserver\src\prot_buddy.c
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	"qqclient.h"
+	"memory.h"
+	"debug.h"
+	"qqpacket.h"
+	"packetmgr.h"
+	"protocol.h"
+	"buddy.h"
+	"config.h"
+
+1284010576 source:x:\project\qqserver\src\prot_group.c
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	"qqclient.h"
+	"memory.h"
+	"debug.h"
+	"qqpacket.h"
+	"packetmgr.h"
+	"protocol.h"
+	"qun.h"
+	"group.h"
+	"utf8.h"
+
+1294885760 source:x:\project\qqserver\src\prot_im.c
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	"qqclient.h"
+	"memory.h"
+	"debug.h"
+	"qqpacket.h"
+	"packetmgr.h"
+	"qqcrypt.h"
+	"md5.h"
+	"buddy.h"
+	"protocol.h"
+	"utf8.h"
+	"util.h"
+
+1245586838 x:\project\qqserver\src\qqcrypt.h
+
+1294832212 source:x:\project\qqserver\src\prot_login.c
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	"qqclient.h"
+	"memory.h"
+	"debug.h"
+	"qqpacket.h"
+	"packetmgr.h"
+	"qqcrypt.h"
+	"md5.h"
+	"crc32.h"
+	"protocol.h"
+	"group.h"
+	"buddy.h"
+	"qun.h"
+	"qqconn.h"
+
+1233976358 x:\project\qqserver\src\crc32.h
+
+1246698252 x:\project\qqserver\src\qqconn.h
+
+1282457376 source:x:\project\qqserver\src\prot_misc.c
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	"qqclient.h"
+	"memory.h"
+	"debug.h"
+	"qqpacket.h"
+	"packetmgr.h"
+	"qqcrypt.h"
+	"md5.h"
+	"protocol.h"
+
+1232937586 source:x:\project\qqserver\src\prot_qun.c
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	"qqclient.h"
+	"memory.h"
+	"debug.h"
+	"qqpacket.h"
+	"packetmgr.h"
+	"protocol.h"
+	"qun.h"
+	"utf8.h"
+
+1294832224 source:x:\project\qqserver\src\prot_user.c
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	"qqclient.h"
+	"memory.h"
+	"debug.h"
+	"qqpacket.h"
+	"packetmgr.h"
+	"protocol.h"
+	"buddy.h"
+	"util.h"
+
+1252572070 source:x:\project\qqserver\src\protocol.c
+	<string.h>
+	<stdlib.h>
+	<time.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	"qqdef.h"
+	"qqclient.h"
+	"qqcrypt.h"
+	"debug.h"
+	"memory.h"
+	"protocol.h"
+
+1296071420 source:x:\project\qqserver\src\qqclient.c
+	<string.h>
+	<stdlib.h>
+	<unistd.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	"md5.h"
+	"memory.h"
+	"debug.h"
+	"config.h"
+	"qqsocket.h"
+	"packetmgr.h"
+	"protocol.h"
+	"qqclient.h"
+	"qun.h"
+	"group.h"
+	"buddy.h"
+	"util.h"
+	"qqconn.h"
+	"api.h"
+
+1296071397 source:x:\project\qqserver\src\qqconn.c
+	<string.h>
+	<stdlib.h>
+	<unistd.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	"memory.h"
+	"debug.h"
+	"config.h"
+	"qqsocket.h"
+	"protocol.h"
+	"qqclient.h"
+	"util.h"
+	"qqconn.h"
+
+1245586804 source:x:\project\qqserver\src\qqcrypt.c
+	<stdio.h>
+	<string.h>
+	<winsock.h>
+	<arpa/inet.h>
+	"qqcrypt.h"
+	"debug.h"
+
+1233976356 source:x:\project\qqserver\src\qqpacket.c
+	<string.h>
+	<stdlib.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	"qqdef.h"
+	"memory.h"
+	"debug.h"
+	"packetmgr.h"
+	"qqclient.h"
+	"qqpacket.h"
+
+1294810310 source:x:\project\qqserver\src\qqsocket.c
+	<stdio.h>
+	<unistd.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	<fcntl.h>
+	<string.h>
+	<stdlib.h>
+	"qqdef.h"
+	"debug.h"
+	"qqsocket.h"
+	"qqclient.h"
+
+1233976356 source:x:\project\qqserver\src\qun.c
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	"qqclient.h"
+	"memory.h"
+	"debug.h"
+	"protocol.h"
+	"list.h"
+	"buddy.h"
+	"qun.h"
+
+1295005895 source:x:\project\qqserver\src\utf8.c
+	<windows.h>
+	<iconv.h>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"qqdef.h"
+	"debug.h"
+	"memory.h"
+	"config.h"
+	"utf8.h"
+
+1296007288 source:x:\project\qqserver\src\util.c
+	<io.h>
+	<windows.h>
+	<sys/stat.h>
+	<stdio.h>
+	<stdarg.h>
+	<string.h>
+	<stdlib.h>
+	<time.h>
+	"qqsocket.h"
+	"debug.h"
+	"qqclient.h"
+	"util.h"
+	"memory.h"
+
+1296007441 source:f:\project\qqserver\src\api.c
+	<winsock.h>
+	<sys/socket.h>
+	<stdio.h>
+	<winsock.h>
+	<pthread.h>
+	"qqsocket.h"
+	"debug.h"
+	"qqclient.h"
+	"memory.h"
+	"api.h"
+	"md5.h"
+
+1294810329 f:\project\qqserver\src\qqsocket.h
+	"qqdef.h"
+
+1294998665 f:\project\qqserver\src\qqdef.h
+	<time.h>
+	<unistd.h>
+	"util.h"
+
+1294067647 f:\project\qqserver\src\util.h
+
+1314323641 f:\project\qqserver\src\debug.h
+	<stdio.h>
+	<errno.h>
+	<assert.h>
+
+1295681356 f:\project\qqserver\src\qqclient.h
+	<pthread.h>
+	<time.h>
+	"qqdef.h"
+	"packetmgr.h"
+	"buddy.h"
+	"list.h"
+	"loop.h"
+	"qqsocket.h"
+	"protocol.h"
+
+1294999963 f:\project\qqserver\src\packetmgr.h
+	<pthread.h>
+	"qqdef.h"
+	"loop.h"
+	"qqpacket.h"
+
+1233976358 f:\project\qqserver\src\loop.h
+	<pthread.h>
+
+1294739871 f:\project\qqserver\src\qqpacket.h
+	"qqdef.h"
+
+1284011091 f:\project\qqserver\src\buddy.h
+	"qqdef.h"
+
+1233976358 f:\project\qqserver\src\list.h
+	<pthread.h>
+
+1284010889 f:\project\qqserver\src\protocol.h
+	"qqdef.h"
+	"qqpacket.h"
+
+1293866120 f:\project\qqserver\src\memory.h
+	<time.h>
+	<pthread.h>
+
+1314323679 f:\project\qqserver\src\api.h
+
+1233976358 f:\project\qqserver\src\md5.h
+
+1252579352 source:f:\project\qqserver\src\buddy.c
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	"qqclient.h"
+	"memory.h"
+	"debug.h"
+	"protocol.h"
+	"list.h"
+	"buddy.h"
+	"packetmgr.h"
+
+1295006019 source:f:\project\qqserver\src\config.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"debug.h"
+	"qqdef.h"
+	"memory.h"
+	"config.h"
+
+1233976358 f:\project\qqserver\src\config.h
+
+1233976360 source:f:\project\qqserver\src\crc32.c
+	<stdio.h>
+	"qqdef.h"
+
+1295006257 source:f:\project\qqserver\src\debug.c
+	<stdio.h>
+	<stdarg.h>
+	<fcntl.h>
+	<string.h>
+	<io.h>
+	<time.h>
+	"debug.h"
+	"util.h"
+	"qqdef.h"
+	"utf8.h"
+
+1293910564 f:\project\qqserver\src\utf8.h
+
+1233989746 source:f:\project\qqserver\src\group.c
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	"qqclient.h"
+	"memory.h"
+	"debug.h"
+	"protocol.h"
+	"list.h"
+	"group.h"
+
+1284009835 f:\project\qqserver\src\group.h
+	"qqdef.h"
+
+1246364738 source:f:\project\qqserver\src\list.c
+	<string.h>
+	<stdlib.h>
+	<pthread.h>
+	"qqdef.h"
+	"debug.h"
+	"memory.h"
+	"list.h"
+
+1294744446 source:f:\project\qqserver\src\loop.c
+	<string.h>
+	<stdlib.h>
+	<pthread.h>
+	"qqdef.h"
+	"debug.h"
+	"memory.h"
+	"loop.h"
+
+1233976354 source:f:\project\qqserver\src\md5.c
+	"md5.h"
+	<string.h>
+	<string.h>
+	<math.h>
+
+1233976354 source:f:\project\qqserver\src\memory.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<time.h>
+	"debug.h"
+	"memory.h"
+
+1295688223 source:f:\project\qqserver\src\packetmgr.c
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	"qqdef.h"
+	"memory.h"
+	"debug.h"
+	"qqclient.h"
+	"qqpacket.h"
+	"qqsocket.h"
+	"packetmgr.h"
+	"protocol.h"
+
+1284013020 source:f:\project\qqserver\src\prot_buddy.c
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	"qqclient.h"
+	"memory.h"
+	"debug.h"
+	"qqpacket.h"
+	"packetmgr.h"
+	"protocol.h"
+	"buddy.h"
+	"config.h"
+
+1284010576 source:f:\project\qqserver\src\prot_group.c
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	"qqclient.h"
+	"memory.h"
+	"debug.h"
+	"qqpacket.h"
+	"packetmgr.h"
+	"protocol.h"
+	"qun.h"
+	"group.h"
+	"utf8.h"
+
+1233976360 f:\project\qqserver\src\qun.h
+	"qqdef.h"
+
+1294885760 source:f:\project\qqserver\src\prot_im.c
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	"qqclient.h"
+	"memory.h"
+	"debug.h"
+	"qqpacket.h"
+	"packetmgr.h"
+	"qqcrypt.h"
+	"md5.h"
+	"buddy.h"
+	"protocol.h"
+	"utf8.h"
+	"util.h"
+
+1245586838 f:\project\qqserver\src\qqcrypt.h
+
+1294832212 source:f:\project\qqserver\src\prot_login.c
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	"qqclient.h"
+	"memory.h"
+	"debug.h"
+	"qqpacket.h"
+	"packetmgr.h"
+	"qqcrypt.h"
+	"md5.h"
+	"crc32.h"
+	"protocol.h"
+	"group.h"
+	"buddy.h"
+	"qun.h"
+	"qqconn.h"
+
+1233976358 f:\project\qqserver\src\crc32.h
+
+1246698252 f:\project\qqserver\src\qqconn.h
+
+1282457376 source:f:\project\qqserver\src\prot_misc.c
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	"qqclient.h"
+	"memory.h"
+	"debug.h"
+	"qqpacket.h"
+	"packetmgr.h"
+	"qqcrypt.h"
+	"md5.h"
+	"protocol.h"
+
+1232937586 source:f:\project\qqserver\src\prot_qun.c
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	"qqclient.h"
+	"memory.h"
+	"debug.h"
+	"qqpacket.h"
+	"packetmgr.h"
+	"protocol.h"
+	"qun.h"
+	"utf8.h"
+
+1294832224 source:f:\project\qqserver\src\prot_user.c
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	"qqclient.h"
+	"memory.h"
+	"debug.h"
+	"qqpacket.h"
+	"packetmgr.h"
+	"protocol.h"
+	"buddy.h"
+	"util.h"
+
+1252572070 source:f:\project\qqserver\src\protocol.c
+	<string.h>
+	<stdlib.h>
+	<time.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	"qqdef.h"
+	"qqclient.h"
+	"qqcrypt.h"
+	"debug.h"
+	"memory.h"
+	"protocol.h"
+
+1296071420 source:f:\project\qqserver\src\qqclient.c
+	<string.h>
+	<stdlib.h>
+	<unistd.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	"md5.h"
+	"memory.h"
+	"debug.h"
+	"config.h"
+	"qqsocket.h"
+	"packetmgr.h"
+	"protocol.h"
+	"qqclient.h"
+	"qun.h"
+	"group.h"
+	"buddy.h"
+	"util.h"
+	"qqconn.h"
+	"api.h"
+
+1296071397 source:f:\project\qqserver\src\qqconn.c
+	<string.h>
+	<stdlib.h>
+	<unistd.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	"memory.h"
+	"debug.h"
+	"config.h"
+	"qqsocket.h"
+	"protocol.h"
+	"qqclient.h"
+	"util.h"
+	"qqconn.h"
+
+1245586804 source:f:\project\qqserver\src\qqcrypt.c
+	<stdio.h>
+	<string.h>
+	<winsock.h>
+	<arpa/inet.h>
+	"qqcrypt.h"
+	"debug.h"
+
+1233976356 source:f:\project\qqserver\src\qqpacket.c
+	<string.h>
+	<stdlib.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	"qqdef.h"
+	"memory.h"
+	"debug.h"
+	"packetmgr.h"
+	"qqclient.h"
+	"qqpacket.h"
+
+1294810310 source:f:\project\qqserver\src\qqsocket.c
+	<stdio.h>
+	<unistd.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	<fcntl.h>
+	<string.h>
+	<stdlib.h>
+	"qqdef.h"
+	"debug.h"
+	"qqsocket.h"
+	"qqclient.h"
+
+1233976356 source:f:\project\qqserver\src\qun.c
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	"qqclient.h"
+	"memory.h"
+	"debug.h"
+	"protocol.h"
+	"list.h"
+	"buddy.h"
+	"qun.h"
+
+1295005895 source:f:\project\qqserver\src\utf8.c
+	<windows.h>
+	<iconv.h>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"qqdef.h"
+	"debug.h"
+	"memory.h"
+	"config.h"
+	"utf8.h"
+
+1296007288 source:f:\project\qqserver\src\util.c
+	<io.h>
+	<windows.h>
+	<sys/stat.h>
+	<stdio.h>
+	<stdarg.h>
+	<string.h>
+	<stdlib.h>
+	<time.h>
+	"qqsocket.h"
+	"debug.h"
+	"qqclient.h"
+	"util.h"
+	"memory.h"
+
+1300073773 source:f:\disk\nfs.uuland.org\~projects\qqapiserver\src\qqapiserver.c
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	<time.h>
+	<stdlib.h>
+	<unistd.h>
+	<conio.h>
+	<winsock.h>
+	<wininet.h>
+	<windows.h>
+	<termios.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	"qqclient.h"
+	"buddy.h"
+	"qun.h"
+	"group.h"
+	"debug.h"
+	"memory.h"
+	"utf8.h"
+	"config.h"
+	"qqsocket.h"
+	"api.h"
+
+1295681356 f:\disk\nfs.uuland.org\~projects\qqapiserver\src\qqclient.h
+	<pthread.h>
+	<time.h>
+	"qqdef.h"
+	"packetmgr.h"
+	"buddy.h"
+	"list.h"
+	"loop.h"
+	"qqsocket.h"
+	"protocol.h"
+
+1294998665 f:\disk\nfs.uuland.org\~projects\qqapiserver\src\qqdef.h
+	<time.h>
+	<unistd.h>
+	"util.h"
+
+1294067647 f:\disk\nfs.uuland.org\~projects\qqapiserver\src\util.h
+
+1294999963 f:\disk\nfs.uuland.org\~projects\qqapiserver\src\packetmgr.h
+	<pthread.h>
+	"qqdef.h"
+	"loop.h"
+	"qqpacket.h"
+
+1233976358 f:\disk\nfs.uuland.org\~projects\qqapiserver\src\loop.h
+	<pthread.h>
+
+1294739871 f:\disk\nfs.uuland.org\~projects\qqapiserver\src\qqpacket.h
+	"qqdef.h"
+
+1284011091 f:\disk\nfs.uuland.org\~projects\qqapiserver\src\buddy.h
+	"qqdef.h"
+
+1233976358 f:\disk\nfs.uuland.org\~projects\qqapiserver\src\list.h
+	<pthread.h>
+
+1294810329 f:\disk\nfs.uuland.org\~projects\qqapiserver\src\qqsocket.h
+	"qqdef.h"
+
+1284010889 f:\disk\nfs.uuland.org\~projects\qqapiserver\src\protocol.h
+	"qqdef.h"
+	"qqpacket.h"
+
+1233976360 f:\disk\nfs.uuland.org\~projects\qqapiserver\src\qun.h
+	"qqdef.h"
+
+1284009835 f:\disk\nfs.uuland.org\~projects\qqapiserver\src\group.h
+	"qqdef.h"
+
+1314323641 f:\disk\nfs.uuland.org\~projects\qqapiserver\src\debug.h
+	<stdio.h>
+	<errno.h>
+	<assert.h>
+
+1293866120 f:\disk\nfs.uuland.org\~projects\qqapiserver\src\memory.h
+	<time.h>
+	<pthread.h>
+
+1293910564 f:\disk\nfs.uuland.org\~projects\qqapiserver\src\utf8.h
+
+1233976358 f:\disk\nfs.uuland.org\~projects\qqapiserver\src\config.h
+
+1314323679 f:\disk\nfs.uuland.org\~projects\qqapiserver\src\api.h
+
+1296007441 source:f:\disk\nfs.uuland.org\~projects\qqapiserver\src\api.c
+	<winsock.h>
+	<sys/socket.h>
+	<stdio.h>
+	<winsock.h>
+	<pthread.h>
+	"qqsocket.h"
+	"debug.h"
+	"qqclient.h"
+	"memory.h"
+	"api.h"
+	"md5.h"
+
+1233976358 f:\disk\nfs.uuland.org\~projects\qqapiserver\src\md5.h
+
+1252579352 source:f:\disk\nfs.uuland.org\~projects\qqapiserver\src\buddy.c
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	"qqclient.h"
+	"memory.h"
+	"debug.h"
+	"protocol.h"
+	"list.h"
+	"buddy.h"
+	"packetmgr.h"
+
+1295006019 source:f:\disk\nfs.uuland.org\~projects\qqapiserver\src\config.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"debug.h"
+	"qqdef.h"
+	"memory.h"
+	"config.h"
+
+1233976360 source:f:\disk\nfs.uuland.org\~projects\qqapiserver\src\crc32.c
+	<stdio.h>
+	"qqdef.h"
+
+1295006257 source:f:\disk\nfs.uuland.org\~projects\qqapiserver\src\debug.c
+	<stdio.h>
+	<stdarg.h>
+	<fcntl.h>
+	<string.h>
+	<io.h>
+	<time.h>
+	"debug.h"
+	"util.h"
+	"qqdef.h"
+	"utf8.h"
+
+1233989746 source:f:\disk\nfs.uuland.org\~projects\qqapiserver\src\group.c
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	"qqclient.h"
+	"memory.h"
+	"debug.h"
+	"protocol.h"
+	"list.h"
+	"group.h"
+
+1246364738 source:f:\disk\nfs.uuland.org\~projects\qqapiserver\src\list.c
+	<string.h>
+	<stdlib.h>
+	<pthread.h>
+	"qqdef.h"
+	"debug.h"
+	"memory.h"
+	"list.h"
+
+1294744446 source:f:\disk\nfs.uuland.org\~projects\qqapiserver\src\loop.c
+	<string.h>
+	<stdlib.h>
+	<pthread.h>
+	"qqdef.h"
+	"debug.h"
+	"memory.h"
+	"loop.h"
+
+1233976354 source:f:\disk\nfs.uuland.org\~projects\qqapiserver\src\md5.c
+	"md5.h"
+	<string.h>
+	<string.h>
+	<math.h>
+
+1233976354 source:f:\disk\nfs.uuland.org\~projects\qqapiserver\src\memory.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<time.h>
+	"debug.h"
+	"memory.h"
+
+1295688223 source:f:\disk\nfs.uuland.org\~projects\qqapiserver\src\packetmgr.c
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	"qqdef.h"
+	"memory.h"
+	"debug.h"
+	"qqclient.h"
+	"qqpacket.h"
+	"qqsocket.h"
+	"packetmgr.h"
+	"protocol.h"
+
+1284013020 source:f:\disk\nfs.uuland.org\~projects\qqapiserver\src\prot_buddy.c
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	"qqclient.h"
+	"memory.h"
+	"debug.h"
+	"qqpacket.h"
+	"packetmgr.h"
+	"protocol.h"
+	"buddy.h"
+	"config.h"
+
+1284010576 source:f:\disk\nfs.uuland.org\~projects\qqapiserver\src\prot_group.c
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	"qqclient.h"
+	"memory.h"
+	"debug.h"
+	"qqpacket.h"
+	"packetmgr.h"
+	"protocol.h"
+	"qun.h"
+	"group.h"
+	"utf8.h"
+
+1294885760 source:f:\disk\nfs.uuland.org\~projects\qqapiserver\src\prot_im.c
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	"qqclient.h"
+	"memory.h"
+	"debug.h"
+	"qqpacket.h"
+	"packetmgr.h"
+	"qqcrypt.h"
+	"md5.h"
+	"buddy.h"
+	"protocol.h"
+	"utf8.h"
+	"util.h"
+
+1245586838 f:\disk\nfs.uuland.org\~projects\qqapiserver\src\qqcrypt.h
+
+1294832212 source:f:\disk\nfs.uuland.org\~projects\qqapiserver\src\prot_login.c
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	"qqclient.h"
+	"memory.h"
+	"debug.h"
+	"qqpacket.h"
+	"packetmgr.h"
+	"qqcrypt.h"
+	"md5.h"
+	"crc32.h"
+	"protocol.h"
+	"group.h"
+	"buddy.h"
+	"qun.h"
+	"qqconn.h"
+
+1233976358 f:\disk\nfs.uuland.org\~projects\qqapiserver\src\crc32.h
+
+1246698252 f:\disk\nfs.uuland.org\~projects\qqapiserver\src\qqconn.h
+
+1282457376 source:f:\disk\nfs.uuland.org\~projects\qqapiserver\src\prot_misc.c
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	"qqclient.h"
+	"memory.h"
+	"debug.h"
+	"qqpacket.h"
+	"packetmgr.h"
+	"qqcrypt.h"
+	"md5.h"
+	"protocol.h"
+
+1232937586 source:f:\disk\nfs.uuland.org\~projects\qqapiserver\src\prot_qun.c
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	"qqclient.h"
+	"memory.h"
+	"debug.h"
+	"qqpacket.h"
+	"packetmgr.h"
+	"protocol.h"
+	"qun.h"
+	"utf8.h"
+
+1294832224 source:f:\disk\nfs.uuland.org\~projects\qqapiserver\src\prot_user.c
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	"qqclient.h"
+	"memory.h"
+	"debug.h"
+	"qqpacket.h"
+	"packetmgr.h"
+	"protocol.h"
+	"buddy.h"
+	"util.h"
+
+1252572070 source:f:\disk\nfs.uuland.org\~projects\qqapiserver\src\protocol.c
+	<string.h>
+	<stdlib.h>
+	<time.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	"qqdef.h"
+	"qqclient.h"
+	"qqcrypt.h"
+	"debug.h"
+	"memory.h"
+	"protocol.h"
+
+1296071420 source:f:\disk\nfs.uuland.org\~projects\qqapiserver\src\qqclient.c
+	<string.h>
+	<stdlib.h>
+	<unistd.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	"md5.h"
+	"memory.h"
+	"debug.h"
+	"config.h"
+	"qqsocket.h"
+	"packetmgr.h"
+	"protocol.h"
+	"qqclient.h"
+	"qun.h"
+	"group.h"
+	"buddy.h"
+	"util.h"
+	"qqconn.h"
+	"api.h"
+
+1296071397 source:f:\disk\nfs.uuland.org\~projects\qqapiserver\src\qqconn.c
+	<string.h>
+	<stdlib.h>
+	<unistd.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	"memory.h"
+	"debug.h"
+	"config.h"
+	"qqsocket.h"
+	"protocol.h"
+	"qqclient.h"
+	"util.h"
+	"qqconn.h"
+
+1245586804 source:f:\disk\nfs.uuland.org\~projects\qqapiserver\src\qqcrypt.c
+	<stdio.h>
+	<string.h>
+	<winsock.h>
+	<arpa/inet.h>
+	"qqcrypt.h"
+	"debug.h"
+
+1233976356 source:f:\disk\nfs.uuland.org\~projects\qqapiserver\src\qqpacket.c
+	<string.h>
+	<stdlib.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	"qqdef.h"
+	"memory.h"
+	"debug.h"
+	"packetmgr.h"
+	"qqclient.h"
+	"qqpacket.h"
+
+1294810310 source:f:\disk\nfs.uuland.org\~projects\qqapiserver\src\qqsocket.c
+	<stdio.h>
+	<unistd.h>
+	<winsock.h>
+	<wininet.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+	<fcntl.h>
+	<string.h>
+	<stdlib.h>
+	"qqdef.h"
+	"debug.h"
+	"qqsocket.h"
+	"qqclient.h"
+
+1233976356 source:f:\disk\nfs.uuland.org\~projects\qqapiserver\src\qun.c
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	"qqclient.h"
+	"memory.h"
+	"debug.h"
+	"protocol.h"
+	"list.h"
+	"buddy.h"
+	"qun.h"
+
+1295005895 source:f:\disk\nfs.uuland.org\~projects\qqapiserver\src\utf8.c
+	<windows.h>
+	<iconv.h>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"qqdef.h"
+	"debug.h"
+	"memory.h"
+	"config.h"
+	"utf8.h"
+
+1296007288 source:f:\disk\nfs.uuland.org\~projects\qqapiserver\src\util.c
+	<io.h>
+	<windows.h>
+	<sys/stat.h>
+	<stdio.h>
+	<stdarg.h>
+	<string.h>
+	<stdlib.h>
+	<time.h>
+	"qqsocket.h"
+	"debug.h"
+	"qqclient.h"
+	"util.h"
+	"memory.h"
+

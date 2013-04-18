@@ -1,0 +1,44 @@
+### Runtime Configuration ###
+#
+QQPacketLog = false
+QQTerminalLog = false
+#
+# 日志目录，删除下面一条将不记录日志。
+#QQLogDir = ./log
+#
+# 验证码目录（请勿更改，否则不能远程登录）
+QQVerifyDir = ./verify
+#
+# 登录方式 UDP or TCP or PROXY_HTTP
+QQNetwork = UDP
+#
+# 颜色控制
+NO_COLOR = false
+#
+#下面为QQ服务器列表，每个服务器用|来隔开，IP和端口用:来给开。最多允许添加16个
+QQTcpServerList = 219.133.60.173:443|219.133.49.125:443|58.60.15.33:443
+QQUdpServerList = 219.133.49.171:8000|58.60.14.37:8000|219.133.60.36:8000|58.60.15.39:8000|sz6.tencent.com:8000|sz7.tencent.com:8000
+#QQHttpProxyServerList =
+#
+# API服务器配置 #####################
+#
+# 监听端口
+APIPort = 9003
+#
+# 连接密钥
+APISeckey = QQRobot.Moyo.(C).im.uuland.org
+#
+# API管理员账号
+APISudo = <7052991>
+#
+# 群聊时触发Callback的关键字
+APIEventKey = <@><小c>
+#
+# Callback 返回接口
+APICallback = http://api.xiaoc.uuland.org/callback.php
+#
+# 忽略离线消息
+APIIgnoreOfflineMsg = false
+#
+# 自动回复消息
+APIAutoReply = 你好，小C现在正在升级后台，不方便问答您的问题，抱歉！

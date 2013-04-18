@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="src\QQAPIServer.c" open="1" top="1" tabpos="0">
+		<Cursor position="183" topLine="0" />
+	</File>
+	<File name="src\api.c" open="0" top="0" tabpos="4">
+		<Cursor position="1128" topLine="39" />
+	</File>
+	<File name="src\api.h" open="0" top="0" tabpos="1">
+		<Cursor position="350" topLine="0" />
+	</File>
+	<File name="src\buddy.c" open="0" top="0" tabpos="0">
+		<Cursor position="1993" topLine="86" />
+	</File>
+	<File name="src\buddy.h" open="0" top="0" tabpos="0">
+		<Cursor position="640" topLine="0" />
+	</File>
+	<File name="src\config.c" open="0" top="0" tabpos="6">
+		<Cursor position="3495" topLine="139" />
+	</File>
+	<File name="src\config.h" open="0" top="0" tabpos="7">
+		<Cursor position="162" topLine="0" />
+	</File>
+	<File name="src\crc32.c" open="0" top="0" tabpos="0">
+		<Cursor position="335" topLine="28" />
+	</File>
+	<File name="src\crc32.h" open="0" top="0" tabpos="0">
+		<Cursor position="78" topLine="0" />
+	</File>
+	<File name="src\debug.c" open="0" top="0" tabpos="0">
+		<Cursor position="1670" topLine="0" />
+	</File>
+	<File name="src\debug.h" open="0" top="0" tabpos="2">
+		<Cursor position="109" topLine="0" />
+	</File>
+	<File name="src\group.c" open="0" top="0" tabpos="0">
+		<Cursor position="1196" topLine="47" />
+	</File>
+	<File name="src\group.h" open="0" top="0" tabpos="0">
+		<Cursor position="509" topLine="0" />
+	</File>
+	<File name="src\list.c" open="0" top="0" tabpos="0">
+		<Cursor position="1220" topLine="74" />
+	</File>
+	<File name="src\loop.c" open="0" top="0" tabpos="5">
+		<Cursor position="517" topLine="20" />
+	</File>
+	<File name="src\loop.h" open="0" top="0" tabpos="0">
+		<Cursor position="245" topLine="0" />
+	</File>
+	<File name="src\md5.c" open="0" top="0" tabpos="0">
+		<Cursor position="2692" topLine="54" />
+	</File>
+	<File name="src\md5.h" open="0" top="0" tabpos="0">
+		<Cursor position="2380" topLine="39" />
+	</File>
+	<File name="src\memory.c" open="0" top="0" tabpos="0">
+		<Cursor position="1437" topLine="62" />
+	</File>
+	<File name="src\memory.h" open="0" top="0" tabpos="2">
+		<Cursor position="893" topLine="17" />
+	</File>
+	<File name="src\packetmgr.c" open="0" top="0" tabpos="2">
+		<Cursor position="12083" topLine="438" />
+	</File>
+	<File name="src\packetmgr.h" open="0" top="0" tabpos="5">
+		<Cursor position="348" topLine="3" />
+	</File>
+	<File name="src\prot_buddy.c" open="0" top="0" tabpos="4">
+		<Cursor position="5899" topLine="218" />
+	</File>
+	<File name="src\prot_im.c" open="0" top="0" tabpos="6">
+		<Cursor position="5823" topLine="198" />
+	</File>
+	<File name="src\prot_login.c" open="0" top="0" tabpos="0">
+		<Cursor position="3137" topLine="100" />
+	</File>
+	<File name="src\prot_misc.c" open="0" top="0" tabpos="0">
+		<Cursor position="2026" topLine="78" />
+	</File>
+	<File name="src\prot_qun.c" open="0" top="0" tabpos="0">
+		<Cursor position="222" topLine="9" />
+	</File>
+	<File name="src\prot_user.c" open="0" top="0" tabpos="8">
+		<Cursor position="6255" topLine="267" />
+	</File>
+	<File name="src\protocol.c" open="0" top="0" tabpos="0">
+		<Cursor position="4813" topLine="159" />
+	</File>
+	<File name="src\protocol.h" open="0" top="0" tabpos="3">
+		<Cursor position="192" topLine="0" />
+	</File>
+	<File name="src\qqclient.c" open="0" top="0" tabpos="1">
+		<Cursor position="5469" topLine="202" />
+	</File>
+	<File name="src\qqclient.h" open="0" top="0" tabpos="3">
+		<Cursor position="2495" topLine="102" />
+	</File>
+	<File name="src\qqconn.c" open="0" top="0" tabpos="0">
+		<Cursor position="3921" topLine="142" />
+	</File>
+	<File name="src\qqdef.h" open="0" top="0" tabpos="3">
+		<Cursor position="33" topLine="73" />
+	</File>
+	<File name="src\qqpacket.c" open="0" top="0" tabpos="9">
+		<Cursor position="1053" topLine="37" />
+	</File>
+	<File name="src\qqpacket.h" open="0" top="0" tabpos="7">
+		<Cursor position="283" topLine="0" />
+	</File>
+	<File name="src\qqsocket.c" open="0" top="0" tabpos="10">
+		<Cursor position="2989" topLine="124" />
+	</File>
+	<File name="src\qqsocket.h" open="0" top="0" tabpos="0">
+		<Cursor position="296" topLine="0" />
+	</File>
+	<File name="src\qun.c" open="0" top="0" tabpos="0">
+		<Cursor position="4338" topLine="183" />
+	</File>
+	<File name="src\qun.h" open="0" top="0" tabpos="0">
+		<Cursor position="504" topLine="7" />
+	</File>
+	<File name="src\utf8.c" open="0" top="0" tabpos="0">
+		<Cursor position="2488" topLine="101" />
+	</File>
+	<File name="src\utf8.h" open="0" top="0" tabpos="0">
+		<Cursor position="218" topLine="0" />
+	</File>
+	<File name="src\util.c" open="0" top="0" tabpos="4">
+		<Cursor position="6167" topLine="228" />
+	</File>
+	<File name="src\util.h" open="0" top="0" tabpos="6">
+		<Cursor position="240" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>
