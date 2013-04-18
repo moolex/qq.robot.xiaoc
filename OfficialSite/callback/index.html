@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Language" content="zh-cn" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>QQRobot API Server</title>
+	<link rel="stylesheet" type="text/css" href="/css/base.css" />
+	<link rel="stylesheet" type="text/css" href="/css/callback.css" />
+</head>
+<body>
+<div id="header">
+	<div id="logo">
+		<a href="/">QQRobot API Server</a>
+	</div>
+	<div id="text">回调说明</div>
+	<div id="menu">
+		<script type="text/javascript" src="/js/menus.js"></script>
+	</div>
+</div>
+<div id="main">
+<div class="navigate">
+	API服务器运行时接收的一些事件会POST提交到回调地址<br/>
+	PHP 中可以用 $_POST['event'] 获取到事件类型，然后根据事件来处理信息<br/>
+	<br/>下面列举了所有支持的事件
+</div>
+<div class="event_box">
+	<ul class="event_list">
+		<li>
+			<div class="event_name">私聊信息 [ <b>buddy.message</b> ]</div>
+			<div class="event_post"><font class="event_post_title">可用参数：</font>
+				<div class="event_post_name">uid</div><div class="event_post_info">发送者账号</div>
+				<div class="event_post_name">message</div><div class="event_post_info">信息内容</div>
+			</div>
+			<div class="event_info">0 0</div>
+		</li>
+		<li>
+			<div class="event_name">群聊信息 [ <b>qun.message</b> ]</div>
+			<div class="event_post"><font class="event_post_title">可用参数：</font>
+				<div class="event_post_name">gid</div><div class="event_post_info">所在的群号</div>
+				<div class="event_post_name">uid</div><div class="event_post_info">发送者账号</div>
+				<div class="event_post_name">message</div><div class="event_post_info">信息内容</div>
+			</div>
+			<div class="event_info">0 0</div>
+		</li>
+		<li>
+			<div class="event_name">系统信息 [ <b>system.message</b> ]</div>
+			<div class="event_post"><font class="event_post_title">可用参数：</font>
+				<div class="event_post_name">message</div><div class="event_post_info">信息内容</div>
+			</div>
+			<div class="event_info">
+				信息内容暂时只支持一条：<br/>
+				messages.send.failed | 某些信息发送失败（一般是信息发送过快导致）
+			</div>
+		</li>
+		<li>
+			<div class="event_name">好友操作信息 [ <b>buddy.operate</b> ]</div>
+			<div class="event_post"><font class="event_post_title">可用参数：</font>
+				<div class="event_post_name">message</div><div class="event_post_info">信息内容</div>
+			</div>
+			<div class="event_info">
+				信息内容支持以下几种：<br/>
+				uid:%u;operate:me2add;result:FAILED;message:DISALLOWED ANY | 添加对方失败（拒绝任何人添加）<br/>
+				uid:%u;operate:me2add;result:FAILED;message:NEED QUESTION | 添加对方失败（需要回答问题）<br/>
+				uid:%u;operate:me2add;result:SUCCESS | 添加对方成功<br/>
+				uid:%u;operate:me2del;result:SUCCESS | 删除好友成功<br/>
+				uid:%u;operate:add2me;result:FAILED;message:%s | 某人请求添加我为好友，等待我验证<br/>
+				uid:%u;operate:me2add;result:FAILED;message:%s | 添加对方失败，返回拒绝理由<br/>
+				uid:%u;operate:add2me;result:SUCCESS | 某人请求添加我为好友成功<br/>
+			</div>
+		</li>
+	</ul>
+</div>
+</div>
+<div id="footer">
+	(C) 2010 xiaoc.uuland.org
+</div>
+</body>
+</html>

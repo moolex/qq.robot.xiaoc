@@ -1,0 +1,55 @@
+@CHARSET 'UTF-8';
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Verdana", "Arial", "Helvetica", "Sans-Serif";
+	line-height: 120%;
+}
+body {
+	font-size: 10pt;
+	background: #ffffff;
+}
+img {
+	border: 0;
+}
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+#header
+{
+	padding: 16px;
+	border-bottom: 5px solid #1D767C;
+}
+#header #logo
+{
+	padding: 10px 3px 10px 60px;
+	font-size: 20pt;
+	display: inline;
+}
+#header #text
+{
+	display: inline;
+}
+#main
+{
+	margin: 10px;
+	padding: 10px 30px;
+}
+#menu
+{
+	float: right;
+}
+#menu a
+{
+	border-bottom: 2px solid #ADB2B7;
+	padding: 3px;
+	margin: 3px;
+}
+#footer
+{
+	padding: 10px;
+	border-top: 5px solid #1D767C;
+}

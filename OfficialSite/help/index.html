@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Language" content="zh-cn" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>QQRobot API Server</title>
+	<link rel="stylesheet" type="text/css" href="/css/base.css" />
+	<link rel="stylesheet" type="text/css" href="/css/index.css" />
+</head>
+<body>
+<div id="header">
+	<div id="logo">
+		<a href="/">QQRobot API Server</a>
+	</div>
+	<div id="text">机器人使用说明</div>
+	<div id="menu">
+		<script type="text/javascript" src="/js/menus.js"></script>
+	</div>
+</div>
+<div id="main">
+启动方法：<br/><br/>
+本程序是属于控制台程序，不可以直接双击运行，需要在cmd下执行，运行时需要一个参数（必须），参数为配置文件名<br/><br/>
+例如程序中附带的“运行.cmd”：<br/><br/>
+<b>QQAPIServer moyo</b><br/><br/>
+表示加载 conf 目录下的 moyo.txt 配置文件<br/><br/>
+启动完毕后程序会监听一个端口来接收API命令，你可以使用API命令“login.create”来创建登录会话。<br/><br/>
+之后所有的操作都是在API命令的支持下完成的了。
+</div>
+<div id="footer">
+	(C) 2010 xiaoc.uuland.org
+</div>
+</body>
+</html>

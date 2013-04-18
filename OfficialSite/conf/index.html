@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Language" content="zh-cn" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>QQRobot API Server</title>
+	<link rel="stylesheet" type="text/css" href="/css/base.css" />
+	<link rel="stylesheet" type="text/css" href="/css/index.css" />
+</head>
+<body>
+<div id="header">
+	<div id="logo">
+		<a href="/">QQRobot API Server</a>
+	</div>
+	<div id="text">配置文件详细说明</div>
+	<div id="menu">
+		<script type="text/javascript" src="/js/menus.js"></script>
+	</div>
+</div>
+<div id="main">
+<pre>
+### Configuration ###
+#
+# <font color="red">日志记录设置，不需更改</font>
+QQPacketLog = false
+QQTerminalLog = false
+#
+# 日志目录，删除下面一条将不记录日志<font color="red">（长期运行时建议用井号注释掉）</font>
+#QQLogDir = ./log
+#
+# 验证码目录<font color="red">（请勿更改，否则不能远程登录）</font>
+QQVerifyDir = ./verify
+#
+# 登录方式 UDP or TCP or PROXY_HTTP
+QQNetwork = UDP
+#
+# 颜色控制
+NO_COLOR = false
+#
+#下面为QQ服务器列表，每个服务器用|来隔开，IP和端口用:来给开。最多允许添加16个
+QQTcpServerList = 219.133.60.173:443|219.133.49.125:443|58.60.15.33:443
+QQUdpServerList = 219.133.49.171:8000|58.60.14.37:8000|219.133.60.36:8000|58.60.15.39:8000|sz6.tencent.com:8000|sz7.tencent.com:8000
+QQHttpProxyServerList = 
+#
+# API服务器配置 #####################
+#
+# 监听端口<font color="red">（API服务器连接端口）</font>
+APIPort = 8090
+#
+# 连接密钥<font color="red">（API服务器连接密钥，用于检查API请求来源是否可靠）</font>
+APISeckey = QQRobot.Moyo.(C).im.uuland.org
+#
+# API管理员账号<font color="red">（可在休眠状态下继续转发管理员的信息，最多设置12个）</font>
+APISudo = <7052991>
+#
+# 群聊时触发Callback的关键字<font color="red">（群聊时只处理以这些关键字开头的信息，每个关键字最长8个字符【4个汉字】，最多设置12个）</font>
+APIEventKey = <@><小c>
+#
+# Callback 返回接口<font color="red">（接口不可用时，会提示Callback Ruing Failed）</font>
+APICallback = http://api.xiaoc.uuland.org/callback.php
+#
+# 忽略离线消息<font color="red">（是否忽略机器人收到的离线消息，建议忽略，否则机器人上线时极有可能卡住）</font>
+APIIgnoreOfflineMsg = true
+#
+# 自动回复消息<font color="red">（可以使用API命令“me.autoreply”开启自动回复【仅对私聊有效】）</font>
+APIAutoReply = 你好，小C现在正在升级后台，不方便问答您的问题，抱歉！
+</pre>
+</div>
+<div id="footer">
+	(C) 2010 xiaoc.uuland.org
+</div>
+</body>
+</html>
