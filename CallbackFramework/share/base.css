@@ -1,0 +1,19 @@
+@CHARSET 'UTF-8';
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Verdana", "Arial", "Helvetica", "Sans-Serif";
+	line-height: 120%;
+}
+body {
+	font-size: 10pt;
+	background: #ffffff;
+}
+img {
+	border: 0;
+}
+a {
+	color: #1576E5;
+	/*text-decoration: none;*/
+}
