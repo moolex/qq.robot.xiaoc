@@ -1,0 +1,85 @@
+body {
+	width: 800px;
+	margin: 0 auto;
+}
+.header {
+	padding: 20px 6px;
+	border-bottom: 3px solid #666666;
+	font-size: 20pt;
+}
+.main {
+	margin: 10px auto;
+}
+.tab {
+	
+}
+.tab ul {
+	list-style: none;
+}
+.tab li {
+	float: left;
+	font-size: 12pt;
+	font-weight: bold;
+	margin: 3px 10px;
+	padding: 8px;
+	border: 2px solid #636d76;
+	border-bottom: none;
+	cursor: pointer;
+}
+.tab .active {
+	color: #fff;
+	background: #636d76;
+}
+.page {
+	clear: both;
+	border-top: 2px solid #636d76;
+	padding: 6px;
+	margin: 10px;
+}
+.page .content {
+	display: none;
+}
+.table-data {
+	width: 100%;
+	border: 1px solid #CCCCCC;
+}
+.table-data td {
+	padding: 3px;
+	overflow: hidden;
+}
+.table-data .title {
+	background: #CCFFCC;
+}
+.table-data .tips {
+	background: #CCFF99;
+}
+.table-data .tr-hover {
+	background: #FFFFCC;
+}
+.msg {
+	font-weight: bold;
+	margin-bottom: 10px;
+	padding: 8px;
+	float: right;
+	display: none;
+}
+.notice {
+	background: #FF9900;
+	color: #000;
+}
+.success {
+	background: #00CC00;
+	color: #fff;
+}
+.normal {
+	background: #cccccc;
+	color: #000;
+}
+.error {
+	background: #DC0056;
+	color: #000;
+}
+.footer{
+	padding: 6px;
+	border-top: 3px solid #666666;
+}
